@@ -1,0 +1,13 @@
+
+
+INSERT INTO BOARD(TITLE, CONTENTS, WRITER)
+VALUES('나 의천인데 나만 다들 바라봤으면 좋겠다','내가 주인고이니까', '조이천');
+INSERT INTO BOARD(TITLE, CONTENTS, WRITER)
+VALUES('오류 심하네','내가 선물', '오동동');
+INSERT INTO BOARD(TITLE, CONTENTS, WRITER)
+VALUES('고소','하지마셈', '서미민');
+
+COMMIT;
+
+SELECT *
+FROM BOARD; 
